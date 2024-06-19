@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #FFF3F7; 
+}
+
+.container {
+    text-align: center;
+}
+
+.title {
+    font-size: 6vw; 
+    color: #ff77a9; 
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    z-index: -1; 
+}
+
+.bear {
+    width: 20vw; 
+    height: 20vw; 
+    background-size: cover;
+    object-fit: contain;
+}
+
+.icon {
+    width: 10vw; 
+    height: auto; 
+    margin: 0 2vw;
+    cursor: pointer; 
+}
+
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.message {
+    font-size: 20px;
+    color: #333;
+    margin-left: 20px;
+    display: inline-block;
+    border: 2px solid #333;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    vertical-align: top;
+    width: 200px;
+}
+.bear-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.bg-rain {
+    background-color: #87CEEB; /* Light blue for rain */
+}
+.bg-heart {
+    background-color: #FFC0CB; /* Pink for heart */
+}
+.bg-moon {
+    background-color: #2E3B4E; /* Dark blue for moon */
+}
